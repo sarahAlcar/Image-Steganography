@@ -30,6 +30,6 @@ monalisa_outfile
 ```
 ## Expected results:
 
-![out0](monalisa_outfile.png)!   [out1](monalisa_outfile_pixel_distribution.png)!   [out2](monalisa_outfile_7.png)
+![out0](monalisa_outfile.png)  ![out1](monalisa_outfile_pixel_distribution.png)  ![out2](monalisa_outfile_7.png)
 
 
