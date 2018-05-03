@@ -4,7 +4,7 @@ Image steganography is the process of hiding a message, for example, a text T in
 
 **Intercalating between channels:**
 
-![concept](rgb.png)
+                                        ![concept](rgb.png)
 
 ## Usage
 
@@ -30,6 +30,6 @@ monalisa_outfile
 ```
 ## Expected results:
 
-![out0](monalisa_outfile.png)  ![out1](monalisa_outfile_pixel_distribution.png)  ![out2](monalisa_outfile_7.png)
+![out0](monalisa_outfile.png)    ![out1](monalisa_outfile_pixel_distribution.png)     ![out2](monalisa_outfile_7.png)
 
 
