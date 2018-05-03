@@ -3,6 +3,7 @@
 Image steganography is the process of hiding a message, for example, a text T in between the images. In the presented scripts, the value relative to the pixel color of the image was changed to its binary value, that is, 88 becomes 1011000. Thus, the encoding of the text into the image was performed in a way that the altered bit (bit band) is chosen as user input parameter (from position 0 to 7). In addition to changing the bit band we opted to intercalate the color channel modifications (alternating between the R, G then B channels).It is logical to infer that the greater the position chosen to alter the bit, the more it can be noticed that there might be something abnormal hidden in the middle of the chosen image.
 
 **Intercalating between channels:**
+
 ![concept](rgb.png)
 
 ## Usage
@@ -29,6 +30,6 @@ monalisa_outfile
 ```
 ## Expected results:
 
-![out0](monalisa_outfile.png)![out1](monalisa_outfile_pixel_distribution.png)![out2](monalisa_outfile_7.png)
+![out0](monalisa_outfile.png)!   [out1](monalisa_outfile_pixel_distribution.png)!   [out2](monalisa_outfile_7.png)
 
 
