@@ -4,7 +4,7 @@ Image steganography is the process of hiding a message, for example, a text T in
 
 **Intercalating between channels:**
 
-                                        ![concept](rgb.png)
+![concept](rgb.png)
 
 ## Usage
 
