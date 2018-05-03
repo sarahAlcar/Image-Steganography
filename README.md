@@ -8,23 +8,23 @@ Image steganography is the process of hiding a message, for example, a text T in
 
 ## Usage
 
-The algorithm was implemented in Python in version 2.7.12. All operations are implemented in three different files called "convert.py", "find_msg.py" and "evd_pxl.py". The program can be executed by terminal, execute the python convert.py command to do the steganography, python find_msg.py to read the text and python evd_pxl.py to highlight the changed pixels. The program is executed with images in PNG format only. The partial results of the operations are stored in the folder that contains the scripts. All saved images have PNG extension.
+The algorithm was implemented in Python in version 2.7.12. All operations are implemented in three different files called "convert.py", "find_msg.py" and "evd_pxl.py". The program can be executed by terminal, execute the python convert.py command to do the steganography, python find_msg.py to read the text and python evd_pxl.py to highlight the changed pixels as it can be seen bellow. The program is executed with images in PNG format only. The partial results of the operations are stored in the folder that contains the scripts. All saved images have PNG extension.
 
 ```
 python convert.py
 monalisa
-texto
+text
 0
 ```
 
 ```
-python find\_msg.py
+python find_msg.py
 monalisa_outfile
 0
 ```
 
 ```
-python evd\_pxl.py
+python evd_pxl.py
 monalisa_outfile
 0
 ```
